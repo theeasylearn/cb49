@@ -1,0 +1,60 @@
+1) write a program to calculate & display area of circle using given radius.
+2) write a program to calculate & display meter & remaining foot of given foot. 
+3) write a program to calculate & display simple interest of given amount, rate and year.
+4) write a program to calculate & display celsius of given fahrenheit.
+5) write a program to calculate & display fahrenheit of given celsius.
+6) write a program to calculate & display kilograms and remaining grams of given grams.
+
+if decision statements
+--------------------------
+1) write a program to findout and display type of shape from given length, width. (square, portrait, landscape) using simple decision making statements.
+
+2) write a program to findout whether given year is millennium year or not. using simple decision making statements. using simple decision making statements.
+
+3) write a program to findout smaller triangle from 2 triangle using given length and base of triangles. 
+
+
+4) write a program to calculate bmi and display obesity level of person from given height
+    (foot and inch) and weight.
+
+5) write a program to accept month number from user and display name of the month (switch statements)
+
+6) write a program to check whether given year is leap year or not. (nested)
+
+8) write a program to accept birth date and month from user. decide zodiac sign from below table 
+Aries: March 21–April 19
+Taurus: April 20–May 20
+Gemini: May 21–June 21
+Cancer: June 22–July 22
+Leo: July 23–August 22
+Virgo: August 23–September 22
+Libra: September 23–October 22
+Scorpio: October 24–November 21
+Sagittarius: November 22–December 21
+Capricorn: December 22–January 19
+Aquarius: January 20–February 18
+Pisces: February 19–March 20
+
+9) write a program to accept birth date and month of male & female. generate & display Zodiac Compatibility for marriage.
+use below image
+https://asknebula.com/images/zodiac-compatibility/zodiac-compatibility-chart.png
+
+
+loop 
+--------------------------------------------
+1) 100 98 96 94 .... 0
+2) 1 8  27  64  125  ..... 1000
+3) 0 1 1 2 3 5 8 13 21 ..... 100
+4) 1 4 7 10 
+5) 2, 6, 18, 54, 162
+6) 1, -2, 3, -4, 5, -6
+7) 2, 1, 3, 4, 7
+8) 0, 1, 2, 5, 12
+9) 1, 1, 1, 2, 2
+10) 1, 1, 2, 5, 14
+11) 1, 7, 10, 13, 19
+
+12) write a program to findout whether given number is prime or not 
+13) write a program to findout whether given number is perfect or not 
+
+14) write a program to convert lowercase letter into uppercase letter and uppercase letter into lowercase letter.
