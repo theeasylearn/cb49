@@ -60,11 +60,18 @@ assignment operators
 
     unary operator
         1 operands and 1 operator
-        a++ (postfix)
+        a++  can be write as a = a + 1 (postfix)
             first assign and then increment 
-        ++a (prefix)
+        ++a can be write as a = a + 1 (prefix)
             first in increment then assign
     a = 10
-    b= a++ b = 10 and a = 11
+    b = a++ b = 10 and a = 11
+    
+    b = a 
+    a = a + 1
+
     a = 10 
-    b= ++a b = 11 and a = 11
+    //b= ++a b = 11 and a = 11
+    
+    a = a + 1;
+    b = a;
