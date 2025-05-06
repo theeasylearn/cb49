@@ -13,6 +13,9 @@ if decision statements
 
 3) write a program to findout smaller triangle from 2 triangle using given length and base of triangles. 
 
+3.3) write a program to findout which circle is smaller from two circle's radius  given by user 
+3.4) write a program to findout which cylinder is bigger from two cylinder's radius and height given by user 
+3.5) write a program to findout which stock will give better return in terms dividend per 100 Rs from given 2 stock's market price and last year dividend.
 
 4) write a program to calculate bmi and display obesity level of person from given height
     (foot and inch) and weight.
