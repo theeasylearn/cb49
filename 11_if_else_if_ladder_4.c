@@ -11,16 +11,16 @@
     3 - calculate annual income 
         gross_income = income * 12
     4 - calculate income tax 
-        4.1 if(gross_income>=12,00,001 && gross_income<=16,00,000)
-                tax = gross_income * 0.15
-        4.2 else if(gross_income>=16,00,001 && gross_income<=20,00,000)
-                tax = gross_income * 0.20
-        4.3 else if(gross_income>=20,00,001 && gross_income<=24,00,000)
-                tax = gross_income * 0.25
-        4.4  else if(gross_income>=24,00,00)
+        4.1 if(gross_income>=24,00,001)
                 tax = gross_income * 0.30
-        4.5  otherwise 
-                tax = 0
+        4.2 else if(gross_income>=20,00,001)
+                tax = gross_income * 0.25
+        4.3 else if(gross_income>=16,00,001)
+                tax = gross_income * 0.20
+        4.4 else if(gross_income>=12,00,001)
+                tax = gross_income * 0.15
+        4.5 otherwise 
+                tax = 0;
     5 - calculate net income 
             net_income = gross_income - tax 
     6   display gross_income tax and net income
