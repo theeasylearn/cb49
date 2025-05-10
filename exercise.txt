@@ -42,6 +42,7 @@ Pisces: February 19–March 20
 use below image
 https://asknebula.com/images/zodiac-compatibility/zodiac-compatibility-chart.png
 
+10)Write a programe to findout planets name from the user given number 
 
 loop 
 --------------------------------------------
