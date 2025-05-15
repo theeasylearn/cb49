@@ -60,7 +60,7 @@ loop
 10) 1, 1, 2, 5, 14
 11) 1, 7, 10, 13, 19
 
-12) write a program to findout whether given number is prime or not 
+12) write a program to findout whether given number is composite or not 
 13) write a program to findout whether given number is perfect or not 
 
 14) write a program to convert lowercase letter into uppercase letter and uppercase letter into lowercase letter.
