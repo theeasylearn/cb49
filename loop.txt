@@ -47,16 +47,16 @@ for(;;)
   do 
   {
 
-  }while(condition);  
+  }while(relational expression);  
   example 
   //100 90 80 70 60 .... 10
   count = 100;
   do 
   {
-     print("%d",count);
-     count=count - 10;
-  }while(count>=10);
-
+     printf("%d",count); //80
+     count=count - 10; //70
+  }while(count>=10); //0>=10
+printf("\n good bye");
 
 nested loop 
     when we use any loop inside any other loop, it is nested loop. we can use for loop inside while loop, or while loop inside for loop. we can use do while inside for/while loop or vice versa. 
