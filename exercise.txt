@@ -71,3 +71,10 @@ loop
 
 
 20) write a program to convert lowercase letter into uppercase letter and uppercase letter into lowercase letter.
+
+21) write a program to print following pattern 
+* * * * *
+* * * * 
+* * * 
+* * 
+* 

@@ -25,7 +25,6 @@ void main()
 {
     int count = 10;
     int square;
-
     do
     {
         square = count * count;

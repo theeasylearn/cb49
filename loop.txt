@@ -60,3 +60,20 @@ printf("\n good bye");
 
 nested loop 
     when we use any loop inside any other loop, it is nested loop. we can use for loop inside while loop, or while loop inside for loop. we can use do while inside for/while loop or vice versa. 
+
+    example 
+    int i = 1, j= 1;
+    while(i<=5) //outer loop 
+    {
+        printf("%5d",i);
+        i = i + 1;
+        printf("(");
+        //inner while loop start
+        j=1;
+        while(j<=3) //inner while loop 
+        {
+            printf("%2d",j);
+            j = j + 1;
+        }
+        printf(")");
+    }
