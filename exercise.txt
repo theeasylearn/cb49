@@ -68,7 +68,11 @@ loop
 17) write a program to findout whether given number is Harshad    Numbers or not 
 18) write a program to findout whether given number is Palindromic     Numbers or not 
 19) write a program to findout whether given number is Co-prime      Numbers or not 
-
+    write a program to make sum of all digits in given number 
+    input : 1234 sum = 10
+    write a program to check given amount is Palindrom  or not 
+    input: 12321 reverse 12321 therefore it is Palindrom
+    input: 12343 reverse 34321 therefore it is not Palindrom
 
 20) write a program to convert lowercase letter into uppercase letter and uppercase letter into lowercase letter.
 
