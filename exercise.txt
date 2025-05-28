@@ -111,3 +111,12 @@ loop
   * * * 
    * *
     *
+
+array 
+-----------------------------------
+1) write a program to findout given value in unsorted array. if value found display position otherwise display value not found 
+
+2) write a program to count odd and even values in array 
+
+3) write a program to findount sum & average of all value 
+
