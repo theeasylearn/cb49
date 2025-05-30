@@ -120,3 +120,11 @@ array
 
 3) write a program to findount sum & average of all value 
 
+string 
+1) write a program to count words in given string 
+
+2) write a program to count digits, words, letters, symbol in given string 
+
+3) write a program to store given string into reverse into another string & then display it 
+    input : apple 
+    output : elppa 
