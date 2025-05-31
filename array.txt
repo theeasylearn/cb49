@@ -33,9 +33,8 @@ one dimensional array
     if array has only one dimensional then it is called one dimensional array. in short it is called 1D array. 1d array is vector
 
 two dimensional array 
-    if array is created in 2 dimensional, it is called two dimensional array. 
-    2d array has 2 dimensional one is horizontal and 2nd is vertical. 2d array is like table in excel. where horizontal lines are called row and vertical lines columns. combination of row and column is called cell. same concept allow applies to 2d array in c language. 2d array is matrix.
-
+    if array is created in 2 dimension, it is called two dimensional array. it is also known as 2d array. 2d array is called matrix.
+    2d array has 2 dimensional one is horizontal and 2nd is vertical. 2d array is like table in excel. where horizontal lines are called row and vertical lines columns. combination of row and column is called cell. here cell is single variable in 2d array. if we create 2d array which has 3 row and 5 column. then there are 15 cells(variable) in this array
 --------------------------------
 how to create 2d array?
 syntax 

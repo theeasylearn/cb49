@@ -121,6 +121,7 @@ array
 3) write a program to findount sum & average of all value 
 
 string 
+----------------------------------------------------
 1) write a program to count words in given string 
 
 2) write a program to count digits, words, letters, symbol in given string 
