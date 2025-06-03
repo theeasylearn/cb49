@@ -5,23 +5,53 @@
 // addition of each position
 // create answer metrics
 
-#include<stdio.h>
-#define ROW 2
-#define COLUMN 2
+#include <stdio.h>
+#define ROW 3
+#define COLUMN 3
 
 void main()
 {
-    int metric1[ROW][COLUMN]={{1,2},
-                              {3,4}};
-    int metric2[ROW][COLUMN]={{10,20},
-                              {30,40}};
-    int metric3[ROW][COLUMN];
+    // static initialization
+    int a[ROW][COLUMN] = {
+        {10, 20, 30},
+        {40, 50, 60},
+        {70, 80, 90}};
+    int b[ROW][COLUMN] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9},
+    };
+    int c[ROW][COLUMN], i, J;
+    for (J = 0; J < ROW; J++)
+    {
+        for (i = 0; i < COLUMN; i++)
+        {
+            c[J][i] = a[J][i] + b[J][i];
+        }
+    }
 
-    metric3[0][0] = metric1[0][0]+metric2[0][0];
-    metric3[0][1] = metric1[0][1]+metric2[0][1];
-    metric3[1][0] = metric1[1][0]+metric2[1][0];
-    metric3[1][1] = metric1[1][1]+metric2[1][1];
-
-
-    printf("%d  %d\n%d  %d",metric3[0][0],metric3[0][1],metric3[1][0],metric3[1][1]);
+    for (J = 0; J < ROW; J++)
+    {
+        for (i = 0; i < COLUMN; i++)
+        {
+            printf("%5d", a[J][i]);
+        }
+        printf("\n");
+    }
+    for (J = 0; J < ROW; J++)
+    {
+        for (i = 0; i < COLUMN; i++)
+        {
+            printf("%5d", b[J][i]);
+        }
+        printf("\n");
+    }
+    for (J = 0; J < ROW; J++)
+    {
+        for (i = 0; i < COLUMN; i++)
+        {
+            printf("%5d", c[J][i]);
+        }
+        printf("\n");
+    }
 }
