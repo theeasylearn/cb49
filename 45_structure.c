@@ -2,16 +2,17 @@
 
 struct student
 {
-    char name[50];
-    int age;
-    char email[20];
-    int mobile;
+    char name[50]; // 50 bytes
+    int age; // 2 bytes
+    char email[20]; // 20 bytes 
+    int mobile; //2 bytes
 
-};
+} // 75 bytes; 
 
 void main()
 {
     struct student s1;
+    struct student list[5];
     
     printf("enter your name : ");
     for(int i=0 ;i<50 ; i++){

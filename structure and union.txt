@@ -41,7 +41,7 @@ we can create array of structure. and we can also create array in structure.
 What is Union?
     Union is also one type of user defined datatype. Union is also one kind of group related variable just like structure. but it has one big difference. members in union has shared memory location instead of different memory location. it means at a time only one member has data. if you store data in other member variable then data in previous member will be lost.
 
- union structure-name {
+ union union-name {
     //create variables 
     datatype name;
     datatype name;
@@ -51,7 +51,7 @@ What is Union?
 example 
 union marriage 
 {
-    char isMarried;
-    int children;
-}
+    char isMarried; //1 bytes
+    int children; //2 byte
+} //2 byte 
 rest of syntax for input, store, process, output will be same as structure.
