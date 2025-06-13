@@ -1,4 +1,5 @@
 #include<stdio.h>
+//USER DEFINED DATA TYPE
 
 struct student
 {
@@ -7,7 +8,7 @@ struct student
     char email[20]; // 20 bytes 
     int mobile; //2 bytes
 
-} // 75 bytes; 
+}; // 75 bytes; 
 
 void main()
 {
@@ -15,49 +16,21 @@ void main()
     struct student list[5];
     
     printf("enter your name : ");
-    for(int i=0 ;i<50 ; i++){
-        scanf("%c",&s1.name[i]);
-
-        if(s1.name[i] == '\n'){
-            break;
-        }
-    }
+    gets(s1.name);
     
-    for(int i=0 ;i<50 ; i++){
-        printf("%c",s1.name[i]);
-
-        if(s1.name[i] == '\n'){
-            break;
-        }
-    }
-
+    
     printf("\nenter your email : ");
-    for(int i=0 ;i<20 ; i++){
-        scanf("%c",&s1.email[i]);
-
-        if(s1.email[i] == '\n'){
-            break;
-        }
-    }
-    
-    for(int i=0 ;i<20 ; i++){
-        printf("%c",s1.email[i]);
-
-        if(s1.email[i] == '\n'){
-            break;
-        }
-    }
+    gets(s1.email);
 
     printf("\nenter your age : ");
     scanf("%d",&s1.age);
-    printf("%d",s1.age);
     
-    
-
     printf("\nenter your mobile : ");
     scanf("%d",&s1.mobile);
 
-    printf("%d",s1.mobile);
+    printf("\n name = %s",s1.name);
+    printf("\n age = %d",s1.age);
+    printf("\n mobile = %d",s1.mobile);
+    printf("\n email = %s",s1.email);
 
-    
 }
